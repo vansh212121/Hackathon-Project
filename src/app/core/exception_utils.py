@@ -2,7 +2,7 @@ from typing import Optional, Type, TypeVar, Callable, Any
 from functools import wraps
 import asyncio
 
-from src.app.core.exceptions import AppException, InternalServerError
+from app.core.exceptions import AppException, InternalServerError
 
 T = TypeVar("T")
 

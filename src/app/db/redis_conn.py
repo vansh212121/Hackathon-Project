@@ -1,5 +1,5 @@
 import redis.asyncio as redis
-from src.app.core.config import settings
+from app.core.config import settings
 
 
 redis_client = redis.from_url(
